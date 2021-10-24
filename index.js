@@ -1,1 +1,1 @@
-export * from './EmailsWrapper.js';
+module.exports = require('./EmailsWrapper.js');

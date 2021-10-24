@@ -1,6 +1,6 @@
-import axios from 'axios';
+const axios = require('axios');
 
-export class EmailsWrapper {
+class EmailsWrapper {
 
     constructor(apiUrl, apiAccessKey) {
         this.instance = axios.create({
@@ -101,3 +101,5 @@ export class EmailsWrapper {
     }
 
 };
+
+module.exports.EmailsWrapper = EmailsWrapper;
