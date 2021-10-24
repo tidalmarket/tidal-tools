@@ -1,7 +1,7 @@
 {
   "name": "tidal-tools",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "https://github.com/tidalgg/tidal-tools",
   "main": "index.js",
   "keywords": [],
   "author": "uDelusional",
