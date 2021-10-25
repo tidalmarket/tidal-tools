@@ -5,7 +5,6 @@ class EmailsWrapper {
     constructor(apiUrl, apiAccessKey) {
         this.instance = axios.create({
             baseURL: apiUrl,
-            timeout: 1000,
             headers: {
                 'Authorization': apiAccessKey
             }
